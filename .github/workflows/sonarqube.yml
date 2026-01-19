@@ -23,5 +23,5 @@ jobs:
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v2
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.secret_santa_token }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
