@@ -47,6 +47,6 @@ jobs:
         SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST }}   # add the URL of your instance to the secrets of this repo with the name SONAR_HOST_URL (Settings > Secrets > Actions > add new repository secret)
       with:
         args:
-          -Dsonar.projectKey=Secret-Santa
+          -Dsonar.projectKey=shreetej17_secret_santa
           -Dsonar.java.binaries=.
 
